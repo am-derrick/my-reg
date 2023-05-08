@@ -23,28 +23,32 @@
 
     <div class="banner"></div>
 
-    <form id="myForm">
-      <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName" name="fullName" required />
-      <br />
+    <form class="reg-form">
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required />
+      </div>
 
-      <label for="contactNumber">Contact Number:</label>
-      <input type="tel" id="contactNumber" name="contactNumber" required />
-      <br />
+      <div class="form-group">
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" required />
+      </div>
 
-      <label for="homeArea">Place of Residence:</label>
-      <input type="text" id="homeArea" name="homeArea" required />
-      <br />
+      <div class="form-group">
+        <label for="homeArea">Place of Residence:</label>
+        <input type="text" id="homeArea" name="homeArea" required />
+      </div>
 
-      <label for="learningInstituition">Institution of Learning:</label>
-      <input
-        type="text"
-        id="learningInstituition"
-        name="learningInstituition"
-      />
-      <br />
+      <div class="form-group">
+        <label for="learningInstituition">Institution of Learning:</label>
+        <input
+          type="text"
+          id="learningInstituition"
+          name="learningInstituition"
+        />
+      </div>
 
-      <fieldset>
+      <div class="radio-group">
         <legend>Do you grant us consent to use your information?</legend>
         <div>
           <label for="dataAccept">Accept</label>
@@ -61,9 +65,7 @@
           <label for="dataDeny">Deny</label>
           <input type="radio" id="dataDeny" name="consent" value="deny" />
         </div>
-      </fieldset>
-      <br />
-
+      </div>
       <button type="submit">Submit</button>
     </form>
     <script src="script.js"></script>
