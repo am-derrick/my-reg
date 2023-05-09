@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // if data is already cached, pre-fill the form
     if (cachedData) {
-        document.getElementById('fullName').value = cachedData.fullName;
+        document.getElementById('firstName').value = cachedData.firstName;
+        document.getElementById('lastName').value = cachedData.lastName;
+        document.getElementById('email').value = cachedData.email;
         document.getElementById('contactNumber').value = cachedData.contactNumber;
         document.getElementsById('homeArea').value = cachedData.homeArea;
         document.getElementById('learningInstitution').value = cachedData.learningInstitution;
@@ -15,7 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         const userData = {
-            fullName: document.getElementById('fullName').value,
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            email: document.getElementById('email').value,
             contactNumber: document.getElementById('contactNumber').value,
             homeArea: document.getElementsById('homeArea').value,
             learningInstitution: document.getElementById('learningInstitution').value,
