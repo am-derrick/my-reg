@@ -48,10 +48,9 @@
         />
       </div>
 
+      <h4>Do you grant us consent to use your information?</h4>
       <div class="radio-group">
-        <legend>Do you grant us consent to use your information?</legend>
-        <div>
-          <label for="dataAccept">Accept</label>
+        <label for="dataAccept">
           <input
             type="radio"
             id="dataAccept"
@@ -59,12 +58,15 @@
             value="accept"
             checked
           />
-        </div>
+          <span class="checkmark"></span>
+          Accept
+        </label>
 
-        <div>
-          <label for="dataDeny">Deny</label>
+        <label for="dataDeny">
           <input type="radio" id="dataDeny" name="consent" value="deny" />
-        </div>
+          <span class="checkmark"></span>
+          Deny
+        </label>
       </div>
       <button type="submit">Submit</button>
     </form>
