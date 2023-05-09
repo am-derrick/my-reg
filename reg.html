@@ -51,17 +51,27 @@
 
     <form class="reg-form">
       <div class="form-group">
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" name="fullName" required />
+        <label for="firstName">First Name:*</label>
+        <input type="text" id="firstName" name="firstName" required />
       </div>
 
       <div class="form-group">
-        <label for="contactNumber">Contact Number:</label>
+        <label for="lastName">Other Name(s):*</label>
+        <input type="text" id="lastName" name="lastName" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="contactNumber">Contact Number:*</label>
         <input type="tel" id="contactNumber" name="contactNumber" required />
       </div>
 
       <div class="form-group">
-        <label for="homeArea">Place of Residence:</label>
+        <label for="homeArea">Place of Residence:*</label>
         <input type="text" id="homeArea" name="homeArea" required />
       </div>
 
@@ -74,7 +84,7 @@
         />
       </div>
 
-      <h3>Do you grant us consent to use your information?</h3>
+      <h3>Do you grant us consent to use your information?*</h3>
       <div class="radio-group">
         <label for="dataAccept">
           <input
