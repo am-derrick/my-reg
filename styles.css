@@ -1,6 +1,6 @@
 body,
 html {
-  height: 100%;
+  /*height: 100%; */
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -25,6 +25,10 @@ nav {
   margin: 0 auto;
 }
 
+nav .logo img {
+  max-height: 50px;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -37,7 +41,7 @@ nav li {
 }
 
 nav a {
-  color: rgb(225, 129, 18);
+  color: #faa21f;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
@@ -51,21 +55,23 @@ nav a:hover {
 }
 
 .hero {
+  margin-top: 120px;
   position: relative;
-  height: 100vh;
+  /*height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 
-.hero-image {
+/* .hero-image {
   height: 100%;
   max-width: 100%;
   object-fit: cover;
-}
+} */
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .hero-text p {
@@ -89,6 +95,7 @@ nav a:hover {
 .form-group label {
   display: block;
   font-weight: bold;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -113,9 +120,9 @@ nav a:hover {
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 2rem;
+  padding-left: 1.8rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .radio-group input[type="radio"] {
