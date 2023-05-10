@@ -1,8 +1,14 @@
 body,
 html {
   height: 100%;
-  margin-left: 50px;
+  margin-left: 60px;
   margin-right: 50px;
+}
+
+body {
+  background-image: url("../images/bg4.jpg");
+  background-size: auto;
+  background-position: center;
 }
 
 header {
@@ -44,6 +50,7 @@ nav a {
   color: #faa21f;
   text-decoration: none;
   font-size: 1.5rem;
+  font-family: sans-serif;
   font-weight: bold;
   padding: 0.5rem;
   transition: all 0.2 ease-in-out;
@@ -72,11 +79,13 @@ nav a:hover {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .hero-text p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
+  font-family: sans-serif;
 }
 
 .reg-form {
@@ -96,6 +105,7 @@ nav a:hover {
   display: block;
   font-weight: bold;
   font-size: 1.2rem;
+  font-family: sans-serif;
   margin-bottom: 0.5rem;
 }
 
@@ -107,12 +117,18 @@ nav a:hover {
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
+  font-family: sans-serif;
 }
 
 .radio-group {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
 }
 
 .radio-group label {
@@ -122,7 +138,8 @@ nav a:hover {
   position: relative;
   padding-left: 1.8rem;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: sans-serif;
 }
 
 .radio-group input[type="radio"] {
@@ -168,8 +185,10 @@ label:hover .checkmark {
   border-radius: 80%;
   background-color: #fff;
 }
-s .data-protection {
-  font-size: 1.2rem;
+
+.data-protection {
+  font-size: 1.3rem;
+  font-family: sans-serif;
 }
 
 footer {
@@ -179,8 +198,9 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
 }
 
 .container {
@@ -203,6 +223,7 @@ footer {
 
 i {
   font-size: 1.5rem;
+  font-family: sans-serif;
   transition: all 0.2s ease-in-out;
 }
 
