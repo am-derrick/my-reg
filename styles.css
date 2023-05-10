@@ -56,7 +56,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  max-width: 1200px;
+  max-width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
   margin: 0 auto;
 }
 
@@ -67,7 +69,8 @@ nav .logo img {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: auto;
+  padding-right: 50px;
   display: flex;
 }
 
@@ -86,7 +89,6 @@ nav a {
 }
 
 nav a:hover {
-  /* background-color: #333; */
   color: #fff;
 }
 
@@ -232,6 +234,7 @@ footer {
   clear: both;
   background-color: #000;
   color: #faa21f;
+  font-size: 1rem;
   padding: 1rem;
   position: relative;
   bottom: 0;
