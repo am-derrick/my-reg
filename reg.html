@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
 
-  <body>
+  <body class="body-container">
     <header>
       <nav>
         <div class="logo">
@@ -28,94 +28,96 @@
       </nav>
     </header>
 
-    <div class="top-text">
-      <h1>Manifest Fellowship Kenya Registration</h1>
-      <p>
-        Welcome to today's Phaneroo service livestream, we are glad you are here
-        and trust that you will be blessed and transformed.
-      </p>
-    </div>
-
-    <form class="reg-form">
-      <div class="form-group">
-        <label for="firstName">First Name:*</label>
-        <input type="text" id="firstName" name="firstName" required />
+    <main>
+      <div class="top-text">
+        <h1>Manifest Fellowship Kenya Registration</h1>
+        <p>
+          Welcome to today's Phaneroo service livestream, we are glad you are
+          here and trust that you will be blessed and transformed.
+        </p>
       </div>
 
-      <div class="form-group">
-        <label for="lastName">Other Name(s):*</label>
-        <input type="text" id="lastName" name="lastName" required />
-      </div>
+      <form class="reg-form">
+        <div class="form-group">
+          <label for="firstName">First Name:*</label>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
 
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" />
-      </div>
+        <div class="form-group">
+          <label for="lastName">Other Name(s):*</label>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
 
-      <div class="form-group">
-        <label for="contactNumber">Contact Number:*</label>
-        <input type="tel" id="contactNumber" name="contactNumber" required />
-      </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
 
-      <div class="form-group">
-        <label for="homeArea">Place of Residence:*</label>
-        <input type="text" id="homeArea" name="homeArea" required />
-      </div>
+        <div class="form-group">
+          <label for="contactNumber">Contact Number:*</label>
+          <input type="tel" id="contactNumber" name="contactNumber" required />
+        </div>
 
-      <div class="form-group">
-        <label for="learningInstituition">Institution of Learning:</label>
-        <input
-          type="text"
-          id="learningInstituition"
-          name="learningInstituition"
-        />
-      </div>
+        <div class="form-group">
+          <label for="homeArea">Place of Residence:*</label>
+          <input type="text" id="homeArea" name="homeArea" required />
+        </div>
 
-      <h3>Do you grant us consent to use your information?*</h3>
-      <div class="radio-group">
-        <label for="dataAccept">
+        <div class="form-group">
+          <label for="learningInstituition">Institution of Learning:</label>
           <input
-            type="radio"
-            id="dataAccept"
-            name="consent"
-            value="accept"
-            checked
+            type="text"
+            id="learningInstituition"
+            name="learningInstituition"
           />
-          <span class="checkmark"></span>
-          Accept
-        </label>
+        </div>
 
-        <label for="dataDeny">
-          <input type="radio" id="dataDeny" name="consent" value="deny" />
-          <span class="checkmark"></span>
-          Deny
-        </label>
+        <h3>Do you grant us consent to use your information?*</h3>
+        <div class="radio-group">
+          <label for="dataAccept">
+            <input
+              type="radio"
+              id="dataAccept"
+              name="consent"
+              value="accept"
+              checked
+            />
+            <span class="checkmark"></span>
+            Accept
+          </label>
+
+          <label for="dataDeny">
+            <input type="radio" id="dataDeny" name="consent" value="deny" />
+            <span class="checkmark"></span>
+            Deny
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <script src="script.js"></script>
+
+      <div class="data-protection">
+        <h3><b>DATA PROTECTION NOTICE:</b></h3>
+        <p>
+          Manifest Fellowship would like to hold and use the information you
+          have provided in this form for the purposes set out below:
+        </p>
+        <ol>
+          <li>
+            To keep you informed of events, services and other related
+            communication from the ministry.
+          </li>
+          <li>
+            To share your contact details with our teams for experience sharing
+            with the ministry.
+          </li>
+          <li>
+            To use your photograph(s) and video(s) taken during any of our
+            events on our communication materials.
+          </li>
+        </ol>
       </div>
-      <button type="submit">Submit</button>
-    </form>
-    <script src="script.js"></script>
-
-    <div class="data-protection">
-      <h3><b>DATA PROTECTION NOTICE:</b></h3>
-      <p>
-        Manifest Fellowship would like to hold and use the information you have
-        provided in this form for the purposes set out below:
-      </p>
-      <ol>
-        <li>
-          To keep you informed of events, services and other related
-          communication from the ministry.
-        </li>
-        <li>
-          To share your contact details with our teams for experience sharing
-          with the ministry.
-        </li>
-        <li>
-          To use your photograph(s) and video(s) taken during any of our events
-          on our communication materials.
-        </li>
-      </ol>
-    </div>
+    </main>
 
     <footer>
       <div class="container">
